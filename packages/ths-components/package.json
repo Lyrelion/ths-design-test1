@@ -1,6 +1,6 @@
 {
   "name": "@ths-design/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "module": "./index.js",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ths-design/icons": "workspace:^1.0.0",
-    "@ths-design/themes": "workspace:^1.0.0"
+    "@ths-design/icons": "workspace:^1.0.1",
+    "@ths-design/themes": "workspace:^1.0.1"
   }
 }
