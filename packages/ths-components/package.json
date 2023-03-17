@@ -1,6 +1,6 @@
 {
   "name": "@ths-design/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ths-design/icons": "workspace:^1.0.0",
-    "@ths-design/themes": "workspace:^1.0.0"
+    "@ths-design/icons": "workspace:^1.0.1",
+    "@ths-design/themes": "workspace:^1.0.1"
   }
 }

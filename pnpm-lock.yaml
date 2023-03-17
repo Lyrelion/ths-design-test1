@@ -8,21 +8,19 @@ importers:
     devDependencies:
       lerna: registry.npmjs.org/lerna/6.5.1
 
-  packages/sten-components:
-    specifiers:
-      '@sten-design/icons': ^1.0.2
-      '@sten-design/themes': ^1.0.3
-    dependencies:
-      '@sten-design/icons': registry.npmjs.org/@sten-design/icons/1.0.2
-      '@sten-design/themes': registry.npmjs.org/@sten-design/themes/1.0.3
-
   packages/ths-components:
     specifiers:
-      '@ths-design/icons': workspace:^1.0.0
-      '@ths-design/themes': workspace:^1.0.0
+      '@ths-design/icons': workspace:^1.0.1
+      '@ths-design/themes': workspace:^1.0.1
     dependencies:
       '@ths-design/icons': link:../ths-icons
       '@ths-design/themes': link:../ths-themes
+
+  packages/ths-icons:
+    specifiers: {}
+
+  packages/ths-themes:
+    specifiers: {}
 
 packages:
 
@@ -647,18 +645,6 @@ packages:
       esquery: registry.npmjs.org/esquery/1.5.0
       typescript: registry.npmjs.org/typescript/4.9.5
     dev: true
-
-  registry.npmjs.org/@sten-design/icons/1.0.2:
-    resolution: {integrity: sha512-1orpWanYZdlU9g3QmU2XnCqubUGg73C08hnoQ0/SX589QNjznJuz1DIZ/z9f5Q5x/cqTdk1V9dQ8PbNCf5vnsA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@sten-design/icons/-/icons-1.0.2.tgz}
-    name: '@sten-design/icons'
-    version: 1.0.2
-    dev: false
-
-  registry.npmjs.org/@sten-design/themes/1.0.3:
-    resolution: {integrity: sha512-gSKHjCtg+8131MlV8NgliF4cN2YNlGwZcYHl+mc2P+ZCMtRROFENzyUzmqyFOt8iY0hGxZIedvwnQqtU7nb2pw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@sten-design/themes/-/themes-1.0.3.tgz}
-    name: '@sten-design/themes'
-    version: 1.0.3
-    dev: false
 
   registry.npmjs.org/@tootallnate/once/2.0.0:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@tootallnate/once/-/once-2.0.0.tgz}
