@@ -7,10 +7,5 @@
   ],
   "devDependencies": {
     "lerna": "^6.0.3"
-  },
-  "command": {
-    "version": {
-      "allowBranch": "main"
-    }
   }
 }

@@ -4,5 +4,10 @@
   ],
   "npmClient": "pnpm",
   "useWorkspaces": true,
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": ["master", "feature/*", "main"]
+    }
+  }
 }
