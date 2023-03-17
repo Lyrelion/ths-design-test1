@@ -1,6 +1,6 @@
 {
   "name": "@ths-design/components",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "type": "module",
   "module": "./index.js",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@ths-design/icons": "^1.0.2",
-    "@ths-design/themes": "^1.0.6"
+    "@ths-design/themes": "^1.0.7"
   },
   "gitHead": "7f1b625b420ffbaafa203e538991698cd34bab0b"
 }
