@@ -10,8 +10,8 @@ importers:
 
   packages/ths-components:
     specifiers:
-      '@ths-design/icons': workspace:^1.0.1
-      '@ths-design/themes': workspace:^1.0.1
+      '@ths-design/icons': workspace:^1.0.2
+      '@ths-design/themes': workspace:^1.0.2
     dependencies:
       '@ths-design/icons': link:../ths-icons
       '@ths-design/themes': link:../ths-themes
