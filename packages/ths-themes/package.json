@@ -12,5 +12,6 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "803eaedb3928777cdbaadb7b91032d6dc741fd8a"
 }
