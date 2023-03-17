@@ -7,3 +7,7 @@ export const testFunc = (a) => {
 export const testFunc222 = (a) => {
   console.log(a)
 };
+
+export const testFunc333 = (a) => {
+  console.log(a)
+};
