@@ -18,7 +18,8 @@
   },
   "scripts": {
     "commit": "git cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepatch": "lerna version prepatch"
   },
   "config": {
     "commitizen": {

@@ -2,12 +2,12 @@
   "packages": [
     "packages/*"
   ],
-  "npmClient": "pnpm",
-  "useWorkspaces": true,
-  "version": "independent",
   "command": {
     "version": {
-      "allowBranch": ["master", "feature/*", "main"]
+      "message": "chore(release): publish"
     }
-  }
+  },
+  "npmClient": "pnpm",
+  "useWorkspaces": true,
+  "version": "independent"
 }
