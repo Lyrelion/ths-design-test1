@@ -1,7 +1,7 @@
 {
   "name": "ths-design",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "commitizen": "^4.3.0",
