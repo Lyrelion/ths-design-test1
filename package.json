@@ -19,6 +19,7 @@
   "scripts": {
     "commit": "git cz",
     "release": "standard-version",
+    "start:components": "lerna run start --scope=@ths-design/components",
     "prepatch": "lerna version prepatch"
   },
   "config": {
