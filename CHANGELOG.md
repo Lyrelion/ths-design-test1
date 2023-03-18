@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Lyrelion/ths-design-test1/compare/v1.1.3...v1.2.0) (2023-03-18)
+
+
+### ✨ Features | 新功能
+
+* 初始化 stencil 项目，增加启动命令配置 ([188c3dd](https://github.com/Lyrelion/ths-design-test1/commit/188c3dd20c5d3f46fc274dd5d320476e014f01a1))
+
 ### [1.1.3](https://github.com/Lyrelion/ths-design-test1/compare/v1.1.2...v1.1.3) (2023-03-18)
 
 ### [1.1.2](https://github.com/Lyrelion/ths-design-test1/compare/v1.1.1...v1.1.2) (2023-03-18)
