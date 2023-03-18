@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/Lyrelion/ths-design-test1/compare/v1.1.1...v1.1.2) (2023-03-18)
+
+
+### 💄 Styles | 风格
+
+* 添加 theme 主题文件基本结构，并配置 gulp 打包 ([b985c6b](https://github.com/Lyrelion/ths-design-test1/commit/b985c6ba2cc575c7eb42b07aee48e4e06bf6efb4))
+
 ### [1.1.1](https://github.com/Lyrelion/ths-design-test1/compare/v1.1.0...v1.1.1) (2023-03-18)
 
 
