@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.button-bg {
+  min-width: 100px;
+  border-radius: 20px;
+  padding: 8px;
+  border: 1px solid #0FF;
+  background-color: #0FF;
+}
+
+span {
+  color: red;
+}
