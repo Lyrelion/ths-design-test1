@@ -2,10 +2,35 @@
   "name": "ths-design",
   "private": false,
   "version": "1.0.0",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "commitizen": "^4.3.0",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-customizable": "^7.0.0",
+    "lerna": "^6.0.3",
+    "standard-version": "^9.5.0",
+    "yorkie": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e -V"
+    }
+  },
+  "scripts": {
+    "commit": "git cz",
+    "release": "standard-version"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
   "workspaces": [
     "packages/*"
   ],
-  "devDependencies": {
-    "lerna": "^6.0.3"
+  "standard-version": {
+    "skip": {
+      "tags": true
+    }
   }
 }
