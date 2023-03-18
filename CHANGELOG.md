@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/Lyrelion/ths-design-test1/compare/v1.1.0...v1.1.1) (2023-03-18)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 测试提交类型修改 ([cea38ba](https://github.com/Lyrelion/ths-design-test1/commit/cea38baba0930ab14be915d4cf9d077bdd97078a))
+
 ## 1.1.0 (2023-03-18)
 
 
