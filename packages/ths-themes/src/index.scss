@@ -1,0 +1,14 @@
+/*
+ * @Description: 样式入口文件
+ * @Author: Lyrelion
+ * @Date: 2023-03-18 09:46:23
+ * @LastEditTime: 2023-03-18 09:47:45
+ * @FilePath: \ths-design-test1\packages\ths-themes\src\index.scss
+ */
+
+// 变量
+@import './common/variable.scss';
+// 主题
+@import './common/mode/mode.scss';
+// 组件
+@import './components/index.scss';
