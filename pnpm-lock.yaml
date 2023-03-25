@@ -25,11 +25,13 @@ importers:
       '@stencil/core': ^3.0.0
       '@types/jest': ^27.5.2
       '@types/node': ^16.18.11
+      classnames: ^2.3.2
       jest: ^27.5.1
       jest-cli: ^27.5.1
       puppeteer: ^19.5.2
     dependencies:
       '@stencil/core': registry.npmjs.org/@stencil/core/3.2.0
+      classnames: registry.npmjs.org/classnames/2.3.2
     devDependencies:
       '@types/jest': registry.npmjs.org/@types/jest/27.5.2
       '@types/node': registry.npmjs.org/@types/node/16.18.16
@@ -3127,6 +3129,12 @@ packages:
       define-property: registry.npmjs.org/define-property/0.2.5
       isobject: registry.npmjs.org/isobject/3.0.1
       static-extend: registry.npmjs.org/static-extend/0.1.2
+
+  registry.npmjs.org/classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz}
+    name: classnames
+    version: 2.3.2
+    dev: false
 
   registry.npmjs.org/clean-css/3.4.28:
     resolution: {integrity: sha512-aTWyttSdI2mYi07kWqHi24NUU9YlELFKGOAgFzZjDN1064DMAOy2FBuoyGmkKRlXkbpXd0EVHmiVkbKhKoirTw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/clean-css/-/clean-css-3.4.28.tgz}

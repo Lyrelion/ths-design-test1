@@ -23,6 +23,8 @@ export namespace Components {
     interface ThsButton {
         "buttonText": string;
     }
+    interface ThsIcons {
+    }
 }
 declare global {
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
@@ -37,9 +39,16 @@ declare global {
         prototype: HTMLThsButtonElement;
         new (): HTMLThsButtonElement;
     };
+    interface HTMLThsIconsElement extends Components.ThsIcons, HTMLStencilElement {
+    }
+    var HTMLThsIconsElement: {
+        prototype: HTMLThsIconsElement;
+        new (): HTMLThsIconsElement;
+    };
     interface HTMLElementTagNameMap {
         "my-component": HTMLMyComponentElement;
         "ths-button": HTMLThsButtonElement;
+        "ths-icons": HTMLThsIconsElement;
     }
 }
 declare namespace LocalJSX {
@@ -60,9 +69,12 @@ declare namespace LocalJSX {
     interface ThsButton {
         "buttonText"?: string;
     }
+    interface ThsIcons {
+    }
     interface IntrinsicElements {
         "my-component": MyComponent;
         "ths-button": ThsButton;
+        "ths-icons": ThsIcons;
     }
 }
 export { LocalJSX as JSX };
@@ -71,6 +83,7 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
             "ths-button": LocalJSX.ThsButton & JSXBase.HTMLAttributes<HTMLThsButtonElement>;
+            "ths-icons": LocalJSX.ThsIcons & JSXBase.HTMLAttributes<HTMLThsIconsElement>;
         }
     }
 }
