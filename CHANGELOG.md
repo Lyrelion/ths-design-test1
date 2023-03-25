@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Lyrelion/ths-design-test1/compare/v1.2.0...v1.3.0) (2023-03-25)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 修复工具函数中的 ts 定义报错 ([8747a62](https://github.com/Lyrelion/ths-design-test1/commit/8747a62745c73873a754b4eae5a6388d9ff53323))
+
+
+### ✨ Features | 新功能
+
+* 添加 渲染 SVG 图标组件、工具函数、枚举、数据类型接口等文件 ([7f7015c](https://github.com/Lyrelion/ths-design-test1/commit/7f7015cfcb3883ef6b7068c990b9548b3742abd8))
+* 在 ths-icons 组件中测试函数组件的效果 ([b9d9d0d](https://github.com/Lyrelion/ths-design-test1/commit/b9d9d0db93bc5509564f0bf6f8b4a67355cc26b2))
+
 ## [1.2.0](https://github.com/Lyrelion/ths-design-test1/compare/v1.1.3...v1.2.0) (2023-03-18)
 
 
