@@ -2,7 +2,7 @@
  * @Description: 工具函数
  * @Author: Lyrelion
  * @Date: 2023-03-18 10:32:03
- * @LastEditTime: 2023-03-25 10:34:33
+ * @LastEditTime: 2023-03-25 11:02:31
  */
 
 /**
@@ -80,7 +80,7 @@ export const kebabCase = (str: string) =>
  * @param el 要获取滚动容器的元素
  * @param vertical 可选参数，指定滚动条是否为纵向
  */
-export const getScrollContainer = (el: HTMLElement, vertical?: string) => {
+export const getScrollContainer = (el: HTMLElement, vertical?: boolean) => {
   let parent: HTMLElement = el;
   // 遍历 el 的父元素，检查每个父元素是否具有滚动属性
   while (parent) {
