@@ -2,7 +2,7 @@
  * @Description: 渲染 SVG 图标组件
  * @Author: Lyrelion
  * @Date: 2023-03-20 18:16:08
- * @LastEditTime: 2023-03-25 10:57:53
+ * @LastEditTime: 2023-03-25 11:07:23
  * @FilePath: \ths-design-test1\packages\ths-components\src\components\ths-icons\icon.tsx
  */
 
@@ -28,7 +28,7 @@ interface IconProps {
   // styles 传入的 css 样式
   styles: object;
   // 传入的 class 名称
-  classNames: string;
+  classNames?: string;
   // 图标颜色
   color: string;
   // 旋转的角度
