@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/Lyrelion/ths-design-test1/compare/v1.3.1...v1.4.0) (2023-03-26)
+
+
+### ♻️ Code Refactoring | 代码重构
+
+* 添加五角星 svg 图片格式化测试（一个保留自身颜色，一个根据用户自定义决定颜色） ([304dcdd](https://github.com/Lyrelion/ths-design-test1/commit/304dcdd2a662e585cd8725a9d5409b3404d24086))
+
+
+### ✨ Features | 新功能
+
+* 使用脚本构建 Icon 系列组件 ([44b1554](https://github.com/Lyrelion/ths-design-test1/commit/44b15540dedce81ccdc8ffbe9a1b3e1e19117b9f))
+* 添加 svg 图标批量转换为 JSON 对象的脚本 ([415319f](https://github.com/Lyrelion/ths-design-test1/commit/415319f38587ce30010b7e09d209e57b4b303955))
+
 ### [1.3.1](https://github.com/Lyrelion/ths-design-test1/compare/v1.3.0...v1.3.1) (2023-03-25)
 
 ## [1.3.0](https://github.com/Lyrelion/ths-design-test1/compare/v1.2.0...v1.3.0) (2023-03-25)
