@@ -23,7 +23,87 @@ export namespace Components {
     interface ThsButton {
         "buttonText": string;
     }
+    interface ThsIconAaC {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIconAdd {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIconAddImage {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIconAddUser {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIconAlertCloseCollapse {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIconAlertErrorC {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIconAlertErrorCircleC {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIconWjx {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIconWjxC {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
     interface ThsIcons {
+        "classNames": string;
+        "color": string;
+        "rotate": number;
+        "size": number | string;
+        "spin": boolean;
+        "styles": object;
+    }
+    interface ThsIcons111 {
     }
 }
 declare global {
@@ -39,16 +119,86 @@ declare global {
         prototype: HTMLThsButtonElement;
         new (): HTMLThsButtonElement;
     };
+    interface HTMLThsIconAaCElement extends Components.ThsIconAaC, HTMLStencilElement {
+    }
+    var HTMLThsIconAaCElement: {
+        prototype: HTMLThsIconAaCElement;
+        new (): HTMLThsIconAaCElement;
+    };
+    interface HTMLThsIconAddElement extends Components.ThsIconAdd, HTMLStencilElement {
+    }
+    var HTMLThsIconAddElement: {
+        prototype: HTMLThsIconAddElement;
+        new (): HTMLThsIconAddElement;
+    };
+    interface HTMLThsIconAddImageElement extends Components.ThsIconAddImage, HTMLStencilElement {
+    }
+    var HTMLThsIconAddImageElement: {
+        prototype: HTMLThsIconAddImageElement;
+        new (): HTMLThsIconAddImageElement;
+    };
+    interface HTMLThsIconAddUserElement extends Components.ThsIconAddUser, HTMLStencilElement {
+    }
+    var HTMLThsIconAddUserElement: {
+        prototype: HTMLThsIconAddUserElement;
+        new (): HTMLThsIconAddUserElement;
+    };
+    interface HTMLThsIconAlertCloseCollapseElement extends Components.ThsIconAlertCloseCollapse, HTMLStencilElement {
+    }
+    var HTMLThsIconAlertCloseCollapseElement: {
+        prototype: HTMLThsIconAlertCloseCollapseElement;
+        new (): HTMLThsIconAlertCloseCollapseElement;
+    };
+    interface HTMLThsIconAlertErrorCElement extends Components.ThsIconAlertErrorC, HTMLStencilElement {
+    }
+    var HTMLThsIconAlertErrorCElement: {
+        prototype: HTMLThsIconAlertErrorCElement;
+        new (): HTMLThsIconAlertErrorCElement;
+    };
+    interface HTMLThsIconAlertErrorCircleCElement extends Components.ThsIconAlertErrorCircleC, HTMLStencilElement {
+    }
+    var HTMLThsIconAlertErrorCircleCElement: {
+        prototype: HTMLThsIconAlertErrorCircleCElement;
+        new (): HTMLThsIconAlertErrorCircleCElement;
+    };
+    interface HTMLThsIconWjxElement extends Components.ThsIconWjx, HTMLStencilElement {
+    }
+    var HTMLThsIconWjxElement: {
+        prototype: HTMLThsIconWjxElement;
+        new (): HTMLThsIconWjxElement;
+    };
+    interface HTMLThsIconWjxCElement extends Components.ThsIconWjxC, HTMLStencilElement {
+    }
+    var HTMLThsIconWjxCElement: {
+        prototype: HTMLThsIconWjxCElement;
+        new (): HTMLThsIconWjxCElement;
+    };
     interface HTMLThsIconsElement extends Components.ThsIcons, HTMLStencilElement {
     }
     var HTMLThsIconsElement: {
         prototype: HTMLThsIconsElement;
         new (): HTMLThsIconsElement;
     };
+    interface HTMLThsIcons111Element extends Components.ThsIcons111, HTMLStencilElement {
+    }
+    var HTMLThsIcons111Element: {
+        prototype: HTMLThsIcons111Element;
+        new (): HTMLThsIcons111Element;
+    };
     interface HTMLElementTagNameMap {
         "my-component": HTMLMyComponentElement;
         "ths-button": HTMLThsButtonElement;
+        "ths-icon-aa-c": HTMLThsIconAaCElement;
+        "ths-icon-add": HTMLThsIconAddElement;
+        "ths-icon-add-image": HTMLThsIconAddImageElement;
+        "ths-icon-add-user": HTMLThsIconAddUserElement;
+        "ths-icon-alert-close-collapse": HTMLThsIconAlertCloseCollapseElement;
+        "ths-icon-alert-error-c": HTMLThsIconAlertErrorCElement;
+        "ths-icon-alert-error-circle-c": HTMLThsIconAlertErrorCircleCElement;
+        "ths-icon-wjx": HTMLThsIconWjxElement;
+        "ths-icon-wjx-c": HTMLThsIconWjxCElement;
         "ths-icons": HTMLThsIconsElement;
+        "ths-icons-111": HTMLThsIcons111Element;
     }
 }
 declare namespace LocalJSX {
@@ -69,12 +219,102 @@ declare namespace LocalJSX {
     interface ThsButton {
         "buttonText"?: string;
     }
+    interface ThsIconAaC {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIconAdd {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIconAddImage {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIconAddUser {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIconAlertCloseCollapse {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIconAlertErrorC {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIconAlertErrorCircleC {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIconWjx {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIconWjxC {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
     interface ThsIcons {
+        "classNames"?: string;
+        "color"?: string;
+        "rotate"?: number;
+        "size"?: number | string;
+        "spin"?: boolean;
+        "styles"?: object;
+    }
+    interface ThsIcons111 {
     }
     interface IntrinsicElements {
         "my-component": MyComponent;
         "ths-button": ThsButton;
+        "ths-icon-aa-c": ThsIconAaC;
+        "ths-icon-add": ThsIconAdd;
+        "ths-icon-add-image": ThsIconAddImage;
+        "ths-icon-add-user": ThsIconAddUser;
+        "ths-icon-alert-close-collapse": ThsIconAlertCloseCollapse;
+        "ths-icon-alert-error-c": ThsIconAlertErrorC;
+        "ths-icon-alert-error-circle-c": ThsIconAlertErrorCircleC;
+        "ths-icon-wjx": ThsIconWjx;
+        "ths-icon-wjx-c": ThsIconWjxC;
         "ths-icons": ThsIcons;
+        "ths-icons-111": ThsIcons111;
     }
 }
 export { LocalJSX as JSX };
@@ -83,7 +323,17 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
             "ths-button": LocalJSX.ThsButton & JSXBase.HTMLAttributes<HTMLThsButtonElement>;
+            "ths-icon-aa-c": LocalJSX.ThsIconAaC & JSXBase.HTMLAttributes<HTMLThsIconAaCElement>;
+            "ths-icon-add": LocalJSX.ThsIconAdd & JSXBase.HTMLAttributes<HTMLThsIconAddElement>;
+            "ths-icon-add-image": LocalJSX.ThsIconAddImage & JSXBase.HTMLAttributes<HTMLThsIconAddImageElement>;
+            "ths-icon-add-user": LocalJSX.ThsIconAddUser & JSXBase.HTMLAttributes<HTMLThsIconAddUserElement>;
+            "ths-icon-alert-close-collapse": LocalJSX.ThsIconAlertCloseCollapse & JSXBase.HTMLAttributes<HTMLThsIconAlertCloseCollapseElement>;
+            "ths-icon-alert-error-c": LocalJSX.ThsIconAlertErrorC & JSXBase.HTMLAttributes<HTMLThsIconAlertErrorCElement>;
+            "ths-icon-alert-error-circle-c": LocalJSX.ThsIconAlertErrorCircleC & JSXBase.HTMLAttributes<HTMLThsIconAlertErrorCircleCElement>;
+            "ths-icon-wjx": LocalJSX.ThsIconWjx & JSXBase.HTMLAttributes<HTMLThsIconWjxElement>;
+            "ths-icon-wjx-c": LocalJSX.ThsIconWjxC & JSXBase.HTMLAttributes<HTMLThsIconWjxCElement>;
             "ths-icons": LocalJSX.ThsIcons & JSXBase.HTMLAttributes<HTMLThsIconsElement>;
+            "ths-icons-111": LocalJSX.ThsIcons111 & JSXBase.HTMLAttributes<HTMLThsIcons111Element>;
         }
     }
 }

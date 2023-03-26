@@ -1,16 +1,36 @@
-import { Component, h } from '@stencil/core';
-// 渲染 SVG 图标组件
-import { Icon } from './icon';
-// 一个测试文件，五角星 svg 图标
-import IconSvg from './icon-loading-test';
+import { Component, Host, Prop, h } from '@stencil/core';
 
 @Component({
   tag: 'ths-icons',
-  styleUrl: 'ths-icons.css',
-  shadow: true,
 })
 export class ThsIcons {
+  // icon 尺寸 默认 20
+  @Prop() size: number | string = 20;
+  // styles 传入的 css 样式
+  @Prop() styles: object;
+  // 传入的 class 名称
+  @Prop() classNames: string;
+  // 图标颜色
+  @Prop() color: string;
+  // 旋转的角度
+  @Prop() rotate: number;
+  // 是否自动旋转
+  @Prop() spin: boolean;
+
   render() {
-    return <Icon size="100" styles={{}} color={'blue'} svgData={IconSvg} rotate={120} spin={true}></Icon>;
+    const { size, styles, classNames, color, rotate, spin } = this;
+    return (
+      <Host>
+        <ths-icon-aa-c {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-aa-c>
+        <ths-icon-add-image {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-add-image>
+        <ths-icon-add-user {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-add-user>
+        <ths-icon-add {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-add>
+        <ths-icon-alert-close-collapse {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-alert-close-collapse>
+        <ths-icon-alert-error-c {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-alert-error-c>
+        <ths-icon-alert-error-circle-c {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-alert-error-circle-c>
+        <ths-icon-wjx-c {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-wjx-c>
+        <ths-icon-wjx {...{ size, styles, classNames, color, rotate, spin }}></ths-icon-wjx>
+      </Host>
+    );
   }
 }

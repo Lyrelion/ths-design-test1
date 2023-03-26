@@ -2,7 +2,7 @@
  * @Description: 渲染 SVG 图标组件
  * @Author: Lyrelion
  * @Date: 2023-03-20 18:16:08
- * @LastEditTime: 2023-03-25 11:07:23
+ * @LastEditTime: 2023-03-26 14:32:42
  * @FilePath: \ths-design-test1\packages\ths-components\src\components\ths-icons\icon.tsx
  */
 
@@ -61,14 +61,17 @@ export const Icon: FunctionalComponent<IconProps> = props => {
   /**
    * 将所有子元素的属性名转换为连字符形式
    * childs 是一个数组，其中每个元素代表一个 SVG 元素
+   * @description 20230326 使用 svgson 格式化 svg 图片数据后，发现他生成的 JSON 数据里：
+   * @description childs 名字 变更为 children
+   * @description attrs 变更为 attributes
    */
-  const _svgData = svgData.childs.map(child => {
-    const attrs = {};
-    Object.keys(child.attrs).forEach(attrName => {
-      attrs[hyphenate(attrName)] = child.attrs[attrName];
+  const _svgData = svgData.children.map(child => {
+    const attributes = {};
+    Object.keys(child.attributes).forEach(attrName => {
+      attributes[hyphenate(attrName)] = child.attributes[attrName];
     });
 
-    child.attrs = attrs;
+    child.attributes = attributes;
     return child;
   });
 
@@ -107,9 +110,9 @@ export const Icon: FunctionalComponent<IconProps> = props => {
    */
   return (
     <Host style={{ display: 'flex' }}>
-      <svg style={outerStyle} class={classes} {...svgData.attrs} width={size} height={size}>
+      <svg style={outerStyle} class={classes} {...svgData.attributes} width={size} height={size}>
         {_svgData.map(child =>
-          child.name === 'rect' ? <rect {...child.attrs}></rect> : child.name === 'circle' ? <circle {...child.attrs}></circle> : <path {...child.attrs}></path>,
+          child.name === 'rect' ? <rect {...child.attributes}></rect> : child.name === 'circle' ? <circle {...child.attributes}></circle> : <path {...child.attributes}></path>,
         )}
       </svg>
     </Host>
