@@ -5,3 +5,5 @@ export { default as thsAdd } from './thsAdd';
 export { default as thsAlertCloseCollapse } from './thsAlertCloseCollapse';
 export { default as thsAlertErrorC } from './thsAlertErrorC';
 export { default as thsAlertErrorCircleC } from './thsAlertErrorCircleC';
+export { default as thsWjxC } from './thsWjxC';
+export { default as thsWjx } from './thsWjx';

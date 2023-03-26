@@ -3,7 +3,7 @@
  * @Description: 将 svg 文件转换为 JSON 格式并输出
  * @Author: Lyrelion
  * @Date: 2023-03-26 09:16:18
- * @LastEditTime: 2023-03-26 11:10:54
+ * @LastEditTime: 2023-03-26 11:22:13
  * @FilePath: \ths-design-test1\packages\ths-icons\build\buildSvgJSONFiles.js
  */
 
@@ -14,7 +14,7 @@ const fs = require('fs');
 
 // 优化 svg 图像，统一 svg 格式（比如将 svg 改成根据传入的颜色控制颜色 fill="currentColor"）
 const { optimize } = require('svgo');
-// 将 SVG 图像转换为 JSON 格式
+// 将 SVG 图像转换为 JSON 格式（https://www.npmjs.com/package/svgson）
 const svgson = require('svgson');
 
 // 将字符串转换为驼峰命名法
@@ -176,4 +176,5 @@ async function build(entryDir, outDir, outDirEsm, prefix, suffix) {
   return arr;
 }
 
+// 如果设计师有新增 icon，只需要添加进 svg 文件夹，执行下 build 脚本即可
 build(entryDir, outDir, outDirEsm, 'ths', '');

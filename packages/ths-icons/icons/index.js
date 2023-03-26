@@ -6,3 +6,5 @@ exports.thsAdd = require('./thsAdd').default;
 exports.thsAlertCloseCollapse = require('./thsAlertCloseCollapse').default;
 exports.thsAlertErrorC = require('./thsAlertErrorC').default;
 exports.thsAlertErrorCircleC = require('./thsAlertErrorCircleC').default;
+exports.thsWjxC = require('./thsWjxC').default;
+exports.thsWjx = require('./thsWjx').default;
