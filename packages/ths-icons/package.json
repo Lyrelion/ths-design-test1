@@ -2,15 +2,20 @@
   "name": "@ths-design/icons",
   "version": "1.0.2",
   "description": "",
-  "type": "module",
-  "module": "./index.js",
+  "main": "icons/index.js",
+  "module": "icons_esm/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build/buildSvgJSONFiles.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lyrelion",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "camelcase": "^6.3.0",
+    "svgo": "^3.0.2",
+    "svgson": "^5.2.1"
   }
 }
